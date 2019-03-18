@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/fakeTwoColorWhite">
+
+    <include layout="@layout/fake_two_title" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:src="@mipmap/fake_two_main_1"
+                android:id="@+id/fake_two_house_img_top"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:layout_height="250dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp">
+
+                <RelativeLayout
+                    android:id="@+id/fake_two_house_linear_repayment_method"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="@string/fake_two_repayment_method"
+                        android:textColor="@color/fakeTwoColorBlack" />
+
+                    <ImageView
+                        android:id="@+id/fake_two_house_img_repayment_method"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/fake_two_into" />
+
+                    <TextView
+                        android:textSize="18sp"
+                        android:id="@+id/fake_two_house_txt_repayment_method"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@id/fake_two_house_img_repayment_method"
+                        android:textColor="@color/fakeTwoColorBlack"
+                        tools:text="测试" />
+                </RelativeLayout>
+
+                <View
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/fakeTwoColorLine" />
+
+                <RelativeLayout
+                    android:visibility="gone"
+                    android:id="@+id/fake_two_house_linear_calculate_method"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="@string/fake_two_calculate_method"
+                        android:textColor="@color/fakeTwoColorBlack" />
+
+                    <ImageView
+                        android:visibility="invisible"
+                        android:id="@+id/fake_two_house_img_calculate_method"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/fake_two_into" />
+
+                    <TextView
+                        android:id="@+id/fake_two_house_txt_calculate_method"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@id/fake_two_house_img_calculate_method"
+                        android:paddingRight="15dp"
+                        android:textColor="@color/fakeTwoColorBlack"
+                        tools:text="测试" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/fakeTwoColorLine" />
+
+                <RelativeLayout
+                    android:id="@+id/fake_two_house_linear_total_loans"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="@string/fake_two_total_loans"
+                        android:textColor="@color/fakeTwoColorBlack" />
+
+                    <ImageView
+                        android:id="@+id/fake_two_house_img_total_loans"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:visibility="invisible"
+                        android:src="@drawable/fake_two_into" />
+                    <TextView
+                        android:id="@+id/fake_two_house_txt_total_loans_tag"
+                        android:textColor="@color/fakeTwoColorBlack"
+                        android:textSize="18sp"
+                        android:layout_centerVertical="true"
+                        android:text="万元"
+                        android:layout_toLeftOf="@id/fake_two_house_img_total_loans"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <EditText
+                        android:id="@+id/fake_two_house_txt_total_loans"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@id/fake_two_house_txt_total_loans_tag"
+                        android:paddingRight="15dp"
+                        android:textColor="@color/fakeTwoColorBlack"
+                        android:background="@null"
+                        android:inputType="numberDecimal"
+                        android:focusable="false"
+                        tools:text="0" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/fakeTwoColorLine" />
+
+                <RelativeLayout
+                    android:id="@+id/fake_two_house_linear_mortgage_years"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="@string/fake_two_mortgage_years"
+                        android:textColor="@color/fakeTwoColorBlack" />
+
+                    <ImageView
+                        android:id="@+id/fake_two_house_img_mortgage_years"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/fake_two_into" />
+
+                    <TextView
+                        android:textSize="18sp"
+                        android:id="@+id/fake_two_house_txt_mortgage_years"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@id/fake_two_house_img_mortgage_years"
+
+                        android:textColor="@color/fakeTwoColorBlack"
+                        tools:text="测试" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/fakeTwoColorLine" />
+
+                <RelativeLayout
+                    android:id="@+id/fake_two_house_linear_interest_rate"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="年利率"
+                        android:textColor="@color/fakeTwoColorBlack" />
+
+                    <ImageView
+                        android:id="@+id/fake_two_house_img_interest_rate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="invisible"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/fake_two_into" />
+                    <TextView
+                        android:id="@+id/fake_two_house_txt_interest_rate_tag"
+                        android:textColor="@color/fakeTwoColorBlack"
+                        android:textSize="18sp"
+                        android:layout_centerVertical="true"
+                        android:text="%"
+                        android:layout_toLeftOf="@id/fake_two_house_img_interest_rate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <EditText
+                        android:id="@+id/fake_two_house_txt_interest_rate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@id/fake_two_house_txt_interest_rate_tag"
+                        android:paddingRight="15dp"
+                        android:textColor="@color/fakeTwoColorBlack"
+                        android:background="@null"
+                        android:inputType="numberDecimal"
+                        android:focusable="false"
+                        tools:text="测试" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/fake_two_house_txt_calculate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:background="@drawable/fake_two_round_corner"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="@string/fake_two_calculate"
+                android:textColor="@color/fakeTwoColorRed"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

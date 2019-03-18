@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<include layout="@layout/fake_two_title"/>
+    <com.ty.fakeandroidtwo.view.FakeTwoCircleImageView
+        android:id="@+id/fake_two_circle_portrait"
+        android:layout_width="108dp"
+        android:layout_height="108dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:src="@mipmap/fake_two_user_unlogin" />
+    <TextView
+        android:id="@+id/fake_two_user"
+        android:text="请登录"
+        android:textColor="#FF000000"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/fake_two_mine_recycler"
+        android:overScrollMode="never"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/fake_two_user_unlogin"
+        android:text="退出登录"
+        style="@style/FakeTwoDefButton"
+        android:gravity="center"
+        android:padding="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="27dp"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+</LinearLayout>

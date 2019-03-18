@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ty.fakeandroidtwo">
+
+    <application
+        android:theme="@style/FakeTwoAppTheme">
+        <activity android:name=".ui.activity.FakeTwoMainActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".ui.activity.FakeTwoCalculateActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.activity.FakeTwoTaxesCalculateActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.activity.FakeTwoWageActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activity.FakeTwoLoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.FakeTwoRegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ui.activity.FakeTwoFeebackActvity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ui.activity.FakeTwoWebViewActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ui.activity.FakeTwoSettingActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ui.activity.FakeTwoChangePasswordActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

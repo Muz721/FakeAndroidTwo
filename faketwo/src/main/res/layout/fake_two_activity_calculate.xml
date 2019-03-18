@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+    <include layout="@layout/fake_two_title"/>
+<TextView
+    android:id="@+id/fake_two_calculate_txt_totalLoans"
+    tools:text="贷款总额300元"
+    android:gravity="center"
+    android:textSize="30sp"
+    android:background="@color/fakeTwoColorTotalLoans"
+    android:layout_width="match_parent"
+    android:layout_height="300dp" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/fake_two_calculate_recycler_details"
+        android:overScrollMode="never"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>

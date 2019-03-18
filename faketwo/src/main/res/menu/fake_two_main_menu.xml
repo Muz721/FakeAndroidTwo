@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item android:icon="@drawable/fake_two_house"
+    android:id="@+id/fake_two_menu_house"
+    app:showAsAction="ifRoom"
+    android:enabled="true"
+    android:title="@string/fake_two_house"/>
+    <item android:icon="@drawable/fake_two_calculator"
+        android:id="@+id/fake_two_menu_calculator"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:title="税费计算"/>
+    <item android:icon="@drawable/fake_two_wage"
+        android:id="@+id/fake_two_menu_car"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:title="个人所得税"/>
+    <item android:icon="@drawable/fake_two_ic_mine"
+        android:id="@+id/fake_two_menu_mine"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:title="我的"/>
+</menu>

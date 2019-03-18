@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ty.fakeandroidtwo">
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/fake_two_ic_launcher"
+        android:label="@string/fake_two_app_name"
+        android:roundIcon="@mipmap/fake_two_ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/FakeTwoAppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name=".ui.activity.FakeTwoMainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.activity.FakeTwoCalculateActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.FakeTwoTaxesCalculateActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.FakeTwoWageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.FakeTwoLoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.FakeTwoRegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ui.activity.FakeTwoFeebackActvity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ui.activity.FakeTwoWebViewActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ui.activity.FakeTwoSettingActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ui.activity.FakeTwoChangePasswordActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

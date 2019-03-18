@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f8f8f8"
+    android:orientation="vertical"
+    >
+
+
+    <include layout="@layout/fake_two_title" />
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="180dp">
+
+
+        <EditText
+            android:id="@+id/fake_two_feedback_text"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@drawable/fake_two_rectangle_ffffff_8px_bbbbbb_1px"
+            android:gravity="left|top"
+            android:hint="感谢您对我们的支持，我们期待您给的宝贵意见。"
+            android:inputType="textMultiLine"
+            android:lineSpacingMultiplier="1.2"
+            android:maxLength="200"
+            android:padding="15dp"
+            android:singleLine="false"
+            android:textColorHint="#FF999999"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/fake_two_txtLength"
+            android:layout_width="35dp"
+            android:layout_height="17dp"
+            android:textColor="#ffcccccc"
+            android:textSize="12dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="9dp"
+            android:layout_gravity="bottom|right"
+            />
+
+
+    </FrameLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#999999"
+        android:textSize="12dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="请详细描述你的问题，有助于我们快速定位并解决问题，留下你的宝贵意见或建议，我们会认真进行评估!"
+        />
+
+
+
+
+
+    <Button
+        android:id="@+id/fake_two_btnSubmit"
+        style="@style/FakeTwoDefButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:text="提 交" />
+</LinearLayout>

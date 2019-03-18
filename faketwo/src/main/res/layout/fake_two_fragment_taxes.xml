@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/fakeTwoColorWhite">
+
+    <include layout="@layout/fake_two_title" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:src="@mipmap/fake_two_main_2"
+                android:id="@+id/fake_two_taxes_img_top"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:layout_height="250dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp">
+                <RelativeLayout
+                    android:id="@+id/fake_two_taxes_linear_Type_of_tax"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="税收种类"
+                        android:textColor="@color/fakeTwoColorBlack" />
+
+                    <ImageView
+                        android:id="@+id/fake_two_taxes_img_Type_of_tax"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/fake_two_into" />
+
+                    <TextView
+                        android:id="@+id/fake_two_taxes_txt_Type_of_tax"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@id/fake_two_taxes_img_Type_of_tax"
+                        android:textSize="18sp"
+                        android:textColor="@color/fakeTwoColorBlack"
+                        tools:text="测试" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/fakeTwoColorLine" />
+                <RelativeLayout
+                    android:id="@+id/fake_two_taxes_linear_first_home_purchase"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="首次购房"
+                        android:textColor="@color/fakeTwoColorBlack" />
+
+                    <ImageView
+                        android:id="@+id/fake_two_taxes_img_first_home_purchase"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/fake_two_into" />
+
+                    <TextView
+                        android:id="@+id/fake_two_taxes_txt_first_home_purchase"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@id/fake_two_taxes_img_first_home_purchase"
+                        android:textSize="18sp"
+                        android:textColor="@color/fakeTwoColorBlack"
+                        tools:text="测试" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/fakeTwoColorLine" />
+
+                <RelativeLayout
+                    android:id="@+id/fake_two_taxes_linear_unique_housing"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="唯一住房"
+                        android:textColor="@color/fakeTwoColorBlack" />
+
+                    <ImageView
+                        android:id="@+id/fake_two_taxes_img_unique_housing"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/fake_two_into" />
+
+                    <TextView
+                        android:id="@+id/fake_two_taxes_txt_unique_housing"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@id/fake_two_taxes_img_unique_housing"
+                        android:textSize="18sp"
+                        android:textColor="@color/fakeTwoColorBlack"
+                        tools:text="测试" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/fakeTwoColorLine" />
+                <RelativeLayout
+                    android:id="@+id/fake_two_taxes_linear_property_certificate_period"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="房产证年限"
+                        android:textColor="@color/fakeTwoColorBlack" />
+
+                    <ImageView
+                        android:id="@+id/fake_two_taxes_img_property_certificate_period"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/fake_two_into" />
+
+                    <TextView
+                        android:id="@+id/fake_two_taxes_txt_property_certificate_period"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@id/fake_two_taxes_img_property_certificate_period"
+                        android:textSize="18sp"
+                        android:textColor="@color/fakeTwoColorBlack"
+                        tools:text="测试" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/fakeTwoColorLine" />
+                <RelativeLayout
+                    android:id="@+id/fake_two_taxes_linear_total_house_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="房屋总价"
+                        android:textColor="@color/fakeTwoColorBlack" />
+
+                    <ImageView
+                        android:id="@+id/fake_two_taxes_img_total_house_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:visibility="invisible"
+                        android:src="@drawable/fake_two_into" />
+                    <TextView
+                        android:id="@+id/fake_two_taxes_txt_total_house_price_tag"
+                        android:textColor="@color/fakeTwoColorBlack"
+                        android:textSize="18sp"
+                        android:layout_centerVertical="true"
+                        android:text="万元"
+                        android:layout_toLeftOf="@id/fake_two_taxes_img_total_house_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <EditText
+                        android:id="@+id/fake_two_taxes_txt_total_house_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@id/fake_two_taxes_txt_total_house_price_tag"
+                        android:paddingRight="15dp"
+                        android:textColor="@color/fakeTwoColorBlack"
+                        android:background="@null"
+                        android:inputType="number"
+                        android:focusable="false"
+                        tools:text="0" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/fakeTwoColorLine" />
+
+
+
+                <RelativeLayout
+                    android:id="@+id/fake_two_taxes_linear_original_price_of_the_house"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="房屋原价"
+                        android:textColor="@color/fakeTwoColorBlack" />
+
+                    <ImageView
+                        android:id="@+id/fake_two_taxes_img_original_price_of_the_house"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="invisible"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/fake_two_into" />
+
+                    <EditText
+                        android:id="@+id/fake_two_taxes_txt_original_price_of_the_house"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@id/fake_two_taxes_txt_original_price_of_the_house_tag"
+                        android:paddingRight="15dp"
+                        android:textColor="@color/fakeTwoColorBlack"
+                        android:background="@null"
+                        android:inputType="number"
+                        android:focusable="false"
+                        tools:text="测试" />
+                    <TextView
+                        android:id="@+id/fake_two_taxes_txt_original_price_of_the_house_tag"
+                        android:textColor="@color/fakeTwoColorBlack"
+                        android:textSize="18sp"
+                        android:layout_centerVertical="true"
+                        android:text="万元"
+                        android:layout_toLeftOf="@id/fake_two_taxes_img_original_price_of_the_house"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/fake_two_taxes_txt_calculate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:background="@drawable/fake_two_round_corner"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="@string/fake_two_calculate"
+                android:textColor="@color/fakeTwoColorRed"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

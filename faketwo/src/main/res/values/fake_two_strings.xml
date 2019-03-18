@@ -1,0 +1,21 @@
+<resources>
+    <string name="fake_two_app_name">FakeAndroidTwo</string>
+    <string name="fake_two_house">商业贷款</string>
+    <string name="fake_two_calculator">公积金贷款</string>
+    <string name="fake_two_car">汽车贷款</string>
+    <string name="fake_two_calculate">计算</string>
+    <string name="fake_two_repayment_method">还款方式</string>
+    <string name="fake_two_calculate_method">计算方式</string>
+    <string name="fake_two_total_loans">贷款总额</string>
+    <string name="fake_two_mortgage_years">按揭年数</string>
+    <string name="fake_two_interest_rate">公积金利率</string>
+    <string name="fake_two_bank_interest_rate">银行利率</string>
+    <string name="fake_two_principal_1">等额本息</string>
+    <string name="fake_two_principal_2">等额本金</string>
+    <string name="fake_two_total_repayment">还款总额:</string>
+    <string name="fake_two_pay_interest">支付利息:</string>
+    <string name="fake_two_mortgage_years_title">按揭年数:</string>
+    <string name="fake_two_monthly_repayment">月均还款:</string>
+    <string name="fake_two_calculation_results">计算结果</string>
+    <string name="fake_two_provident_fund_rate">公积金利率</string>
+</resources>

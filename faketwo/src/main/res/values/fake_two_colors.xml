@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="fakeTwoColorPrimary">#008577</color>
+    <color name="fakeTwoColorPrimaryDark">#00574B</color>
+    <color name="fakeTwoColorAccent">#D81B60</color>
+
+    <color name="fakeTwoTitle">#00BFFF</color>
+    <color name="fakeTwoColorWhite">#FFFFFFFF</color>
+    <color name="fakeTwoColorRed">#FFFF0000</color>
+    <color name="fakeTwoColorBar">#FFf3f3f5</color>
+    <color name="fakeTwoColorGray">#FF888888</color>
+    <color name="fakeTwoColorBlack">#FF000000</color>
+    <color name="fakeTwoColorLine">#FFDCDCDC</color>
+    <color name="fakeTwoColorPickerOut">#FFDCDCDC</color>
+    <color name="fakeTwoColorTotalLoans">#FF7FFFD4</color>
+</resources>

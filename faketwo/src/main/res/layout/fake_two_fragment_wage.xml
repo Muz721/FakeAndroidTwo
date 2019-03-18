@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/fakeTwoColorWhite">
+
+    <include layout="@layout/fake_two_title" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:src="@mipmap/fake_two_main_3"
+                android:id="@+id/fake_two_wage_img_top"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:layout_height="250dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp">
+
+                <RelativeLayout
+                    android:id="@+id/fake_two_wage_linear_before_tax"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="税前工资"
+                        android:textColor="@color/fakeTwoColorBlack" />
+
+                    <ImageView
+                        android:visibility="invisible"
+                        android:id="@+id/fake_two_wage_img_before_tax"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/fake_two_into" />
+                    <TextView
+                        android:id="@+id/fake_two_wage_img_before_tax_tag"
+                        android:textColor="@color/fakeTwoColorBlack"
+                        android:textSize="18sp"
+                        android:layout_centerVertical="true"
+                        android:text="元"
+                        android:layout_toLeftOf="@id/fake_two_wage_img_before_tax"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <EditText
+                        android:id="@+id/fake_two_wage_txt_before_tax"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@id/fake_two_wage_img_before_tax_tag"
+                        android:paddingRight="15dp"
+                        android:textColor="@color/fakeTwoColorBlack"
+                        android:background="@null"
+                        android:inputType="numberDecimal"
+                        android:focusable="false"
+                        tools:text="测试" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/fakeTwoColorLine" />
+
+                <RelativeLayout
+                    android:id="@+id/fake_two_wage_linear_five_insurance"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="五险一金"
+                        android:textColor="@color/fakeTwoColorBlack" />
+
+                    <ImageView
+                        android:visibility="invisible"
+                        android:id="@+id/fake_two_wage_img_five_insurance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/fake_two_into" />
+                    <TextView
+                        android:id="@+id/fake_two_wage_img_five_insurance_tag"
+                        android:textColor="@color/fakeTwoColorBlack"
+                        android:textSize="18sp"
+
+                        android:layout_centerVertical="true"
+                        android:text="元"
+                        android:layout_toLeftOf="@id/fake_two_wage_img_five_insurance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <EditText
+                        android:id="@+id/fake_two_wage_txt_five_insurance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@id/fake_two_wage_img_five_insurance_tag"
+                        android:paddingRight="15dp"
+                        android:textColor="@color/fakeTwoColorBlack"
+                        android:background="@null"
+                        android:inputType="numberDecimal"
+                        android:focusable="false"
+                        tools:text="测试" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/fakeTwoColorLine" />
+
+                <RelativeLayout
+                    android:id="@+id/fake_two_wage_linear_marking_point"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="起征点"
+                        android:textColor="@color/fakeTwoColorBlack" />
+
+                    <ImageView
+                        android:id="@+id/fake_two_wage_img_marking_point"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:visibility="invisible"
+                        android:src="@drawable/fake_two_into" />
+                    <TextView
+                        android:id="@+id/fake_two_wage_img_marking_point_tag"
+                        android:textColor="@color/fakeTwoColorBlack"
+                        android:textSize="18sp"
+                        android:layout_centerVertical="true"
+                        android:text="元"
+                        android:layout_toLeftOf="@id/fake_two_wage_img_marking_point"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <EditText
+                        android:id="@+id/fake_two_wage_txt_marking_point"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@id/fake_two_wage_img_marking_point_tag"
+                        android:paddingRight="15dp"
+                        android:textColor="@color/fakeTwoColorBlack"
+                        android:background="@null"
+                        android:inputType="numberDecimal"
+                        android:focusable="false"
+                        tools:text="0" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/fakeTwoColorLine" />
+
+                <RelativeLayout
+                    android:id="@+id/fake_two_wage_linear_tax_rate"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="税率"
+                        android:textColor="@color/fakeTwoColorBlack" />
+
+                    <ImageView
+                        android:visibility="invisible"
+                        android:id="@+id/fake_two_wage_img_tax_rate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/fake_two_into" />
+                    <TextView
+                        android:id="@+id/fake_two_wage_img_tax_rate_tag"
+                        android:textColor="@color/fakeTwoColorBlack"
+                        android:textSize="18sp"
+                        android:layout_centerVertical="true"
+                        android:text="%"
+                        android:layout_toLeftOf="@id/fake_two_wage_img_tax_rate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <EditText
+                        android:id="@+id/fake_two_wage_txt_tax_rate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@id/fake_two_wage_img_tax_rate_tag"
+                        android:paddingRight="15dp"
+                        android:textColor="@color/fakeTwoColorBlack"
+                        android:background="@null"
+                        android:inputType="numberDecimal"
+                        android:focusable="false"
+                        tools:text="测试" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/fakeTwoColorLine" />
+
+                <RelativeLayout
+                    android:id="@+id/fake_two_wage_linear_quick_deduction"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="速算扣除数"
+                        android:textColor="@color/fakeTwoColorBlack" />
+
+                    <ImageView
+                        android:id="@+id/fake_two_wage_img_quick_deduction"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="invisible"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/fake_two_into" />
+                    <TextView
+                        android:id="@+id/fake_two_wage_img_quick_deduction_tag"
+                        android:textColor="@color/fakeTwoColorBlack"
+                        android:textSize="18sp"
+                        android:layout_centerVertical="true"
+                        android:text="元"
+                        android:layout_toLeftOf="@id/fake_two_wage_img_quick_deduction"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <EditText
+                        android:id="@+id/fake_two_wage_txt_quick_deduction"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@id/fake_two_wage_img_quick_deduction_tag"
+                        android:paddingRight="15dp"
+                        android:textColor="@color/fakeTwoColorBlack"
+                        android:background="@null"
+                        android:inputType="numberDecimal"
+                        android:focusable="false"
+                        tools:text="测试" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/fake_two_wage_txt_calculate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:background="@drawable/fake_two_round_corner"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="@string/fake_two_calculate"
+                android:textColor="@color/fakeTwoColorRed"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>
